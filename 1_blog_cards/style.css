@@ -21,6 +21,20 @@ body {
     margin: auto; /* Make things to always center */
 }
 
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+
+    /* 0.1 is too subtle, you can change it to 0.9 to check what box shadow looks like
+       2nd value is whether the light source is from above (positive number) or below (negative number)
+       3rd value is how blurry the shadow is, the higher the value the more blurry.
+    */
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+
+    overflow: hidden;
+    width: 300px;
+}
+
 .card-header img {
     width: 100%; /* this will suddenly make 3 columns contains within the page width */
     height: 200px;

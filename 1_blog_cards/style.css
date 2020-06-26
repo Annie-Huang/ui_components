@@ -16,6 +16,9 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Gap between each cell from horizozntally and veritically.*/
+    width: 940px;
+    margin: auto; /* Make things to always center */
 }
 
 .card-header img {

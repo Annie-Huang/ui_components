@@ -4,3 +4,7 @@ https://www.youtube.com/watch?v=6EajwhCNLfc
 https://github.com/bradtraversy/ui_components
 https://github.com/Annie-Huang/ui_components
 ====================================================
+
+C:\react\ui_components>npm init -y
+
+

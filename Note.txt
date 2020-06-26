@@ -3,6 +3,9 @@ https://www.youtube.com/watch?v=6EajwhCNLfc
 
 https://github.com/bradtraversy/ui_components
 https://github.com/Annie-Huang/ui_components
+
+https://fonts.google.com/specimen/Open+Sans
+https://fonts.google.com/specimen/Open+Sans?sidebar.open&selection.family=Open+Sans:wght@400;600
 ====================================================
 
 C:\react\ui_components>npm init -y

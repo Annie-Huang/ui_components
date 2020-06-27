@@ -39,6 +39,15 @@ form {
     padding: 40px;
 }
 
+.form-control {
+    margin: 10px 0;
+
+    /* This makes the label and input align left again, otherwise, it will align center before of the flex default
+       Very good tricks
+    */
+    width: 100%;
+}
+
 .btn {
     cursor: pointer;
     background-color: #141c2c;

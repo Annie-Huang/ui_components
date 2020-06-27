@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./1_blog_cards"
+    "start": "lite-server --baseDir=./2_login"
   },
   "repository": {
     "type": "git",

@@ -100,25 +100,9 @@ body {
     color: #888785;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 940px) {
+    .container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

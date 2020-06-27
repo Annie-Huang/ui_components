@@ -71,13 +71,34 @@ body {
     background-color: #c62bcb;
 }
 
+.card-body h4 {
+    margin: 10px 0;
+}
 
+.card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+}
 
+.user {
+    display: flex;
+    margin-top: auto; /* This is the trick to push the .user down because the margin-top can auto adjust */
+}
 
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
+.user-info h5 {
+    margin: 0;
+}
 
-
-
+.user-info small {
+    color: #888785;
+}
 
 
 

@@ -113,30 +113,38 @@ input:not([type='checkbox']) {
 
 .features {
     flex: 1.5;
+    padding: 40px;
 }
 
+.feature {
+    padding-left: 30px;
+    position: relative;
+    margin: 40px 0;
+}
 
+.feature i {
+    color: #2762eb;
+    position: absolute; /* this makes it auto align because .feature has a padding-left of 30px, and the i is just in this padding */
+    top: 5px;
+    left: 0;
+}
 
+.feature h3 {
+    margin: 0;
+}
 
+.feature p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 5px 0;
+}
 
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    form {
+        border-right: 0;
+    }
+}

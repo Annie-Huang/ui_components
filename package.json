@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./2_login"
+    "start": "lite-server --baseDir=./3_ads_manager"
   },
   "repository": {
     "type": "git",

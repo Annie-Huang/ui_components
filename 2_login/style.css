@@ -37,6 +37,7 @@ form {
     align-items: center;
     justify-content: center;
     padding: 40px;
+    flex: 1
 }
 
 .form-control {
@@ -110,8 +111,9 @@ input:not([type='checkbox']) {
     width: 20px;
 }
 
-
-
+.features {
+    flex: 1.5;
+}
 
 
 

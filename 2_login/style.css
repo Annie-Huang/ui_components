@@ -64,6 +64,24 @@ input:not([type='checkbox']) {
     width: 100%; /* To push it into a new row */
 }
 
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.checkbox-container label {
+    color: #7a7e8c;
+    font-weight: normal;
+}
+
+.checkbox-container a {
+    margin-left: auto; /* This will push the element to align to the right */
+}
+
+
 .btn {
     cursor: pointer;
     background-color: #141c2c;

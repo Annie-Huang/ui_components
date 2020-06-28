@@ -102,8 +102,20 @@ table tbody tr:hover .delete {
     opacity: 1;
 }
 
+@media(max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
 
+    table tbody tr .delete {
+        opacity: 1;
+    }
 
+    table th:nth-of-type(3),
+    table td:nth-of-type(3) { /* looks like it will calculate per tr, rather than table as a whole for td, nice */
+        display: none;
+    }
+}
 
 
 

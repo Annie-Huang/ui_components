@@ -48,6 +48,17 @@ table tbody tr:hover {
     box-shadow: 0 3px 5px rgba(0,0,0,0.2);
 }
 
+table tbody tr td:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+table tbody tr td:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
 
 
 

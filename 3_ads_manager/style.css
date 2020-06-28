@@ -14,3 +14,57 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+.container {
+    background-color: #273349;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(12,16,31,0.4);
+    padding: 100px;
+    margin: auto;
+    width: 1000px;
+}
+
+table {
+    color: #e2e2e2;
+    padding: 10px;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+}
+
+table tbody tr {
+    /* The gap between cells are from border-spacing (2px) coming from user-agents
+       if you set border-spacing: unset, you will not see the gap.
+      */
+    background-color: #1c223b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
